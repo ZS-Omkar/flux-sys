@@ -6,4 +6,3 @@ resources:
   - namespace.yaml  
   - release.yaml
   - db.yaml
-  - sql.yaml
