@@ -11,15 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  env:
-    - name: MONGODB_USER
-      valueFrom:
-        secretKeyRef:
-          name: basic-auth-sealed.yaml
-          key: user
-    - name: MONGODB_PASSWORD
-      valueFrom:
-        secretKeyRef:
-          name: basic-auth-sealed.yaml
-          key: password
-          
+ 
