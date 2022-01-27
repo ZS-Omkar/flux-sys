@@ -12,14 +12,4 @@ spec:
         name: bitnami
   interval: 1m0s
   releaseName: mongodb
-  env:
-    - name: MONGODB_USER
-      valueFrom:
-        secretKeyRef:
-          name: basic-auth-sealed.yaml
-          key: user
-    - name: MONGODB_PASSWORD
-      valueFrom:
-        secretKeyRef:
-          name: basic-auth-sealed.yaml
-          key: password
+  
