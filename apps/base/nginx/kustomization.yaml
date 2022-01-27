@@ -9,4 +9,6 @@ resources:
   - sealed-release.yaml
   - sealed-repo.yaml
   - alerts.yaml
+  - provider.yaml
+
  
