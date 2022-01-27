@@ -8,4 +8,5 @@ resources:
   - db.yaml
   - sealed-release.yaml
   - sealed-repo.yaml
+  - alerts.yaml
  
